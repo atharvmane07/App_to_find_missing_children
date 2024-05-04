@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:misschild/report_missing_child_screen.dart';
 import 'package:misschild/find_missing_child_screen.dart';
 
+import 'package:flutter/material.dart';
+import 'report_missing_child_screen.dart';
+import 'find_missing_child_screen.dart';
+
 class ChooseOptionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -41,6 +45,7 @@ class ChooseOptionScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 primary: Colors.white,
+                onPrimary: Colors.lightBlue,
                 padding: EdgeInsets.symmetric(vertical: 15),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),
@@ -48,7 +53,7 @@ class ChooseOptionScreen extends StatelessWidget {
               ),
               child: Text(
                 'Report a Missing Child',
-                style: TextStyle(fontSize: 18, color: Colors.lightBlue),
+                style: TextStyle(fontSize: 18),
               ),
             ),
             SizedBox(height: 10),
@@ -63,6 +68,7 @@ class ChooseOptionScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 primary: Colors.white,
+                onPrimary: Colors.lightBlue,
                 padding: EdgeInsets.symmetric(vertical: 15),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),
@@ -70,7 +76,7 @@ class ChooseOptionScreen extends StatelessWidget {
               ),
               child: Text(
                 'Find a Missing Child',
-                style: TextStyle(fontSize: 18, color: Colors.lightBlue),
+                style: TextStyle(fontSize: 18),
               ),
             ),
           ],

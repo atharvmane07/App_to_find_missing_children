@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "376201664638",
+    "project_id": "authentication-460a1",
+    "storage_bucket": "authentication-460a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376201664638:android:8aa51a6cdf599c3c0b602f",
+        "android_client_info": {
+          "package_name": "com.example.misschild"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcihSERlcx1OxiDVj9N_zId-_wtujnYBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
